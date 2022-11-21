@@ -1,0 +1,98 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 95vh;
+    box-sizing: border-box;
+    padding: 85px 120px 85px 200px;
+    background-color: #f0f2f5;
+}
+.container .content{
+    width: 45%;
+    position: relative;
+    margin-right: auto;
+    padding-left: 40px;
+    top: -10px; 
+}
+.container .content img{
+    height: 100px;
+    margin-top: 100px;
+}
+.container .content p{
+    font-size: 30px;
+    position: relative;
+    top: -10px;
+    left: 30px;
+    font-family: sans-serif;
+}
+.container .form-parent{
+    width: 45%;
+    margin-left: auto;
+    margin-top: 50px;
+}
+.container .form-parent form{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    width: 400px;
+    height: 350px;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 4px rgb(0 0 0/10%),0px 8px 16px rgb(0 0 0/10%);
+    background-color: white;
+    border-radius: 6px;
+}
+.container .form-parent form input{
+    font-size: 17px;
+    width: 100%;
+    padding: 14px 20px;
+    box-sizing: border-box;
+    margin: 7px 0px;
+    border-radius: 7px;
+}
+.container .form-parent form .sub{
+    background-color: #1872f2;
+    color: white;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.container .form-parent form .forget-link{
+    text-align: center;
+    color: #1872f2;
+    text-decoration: none;
+    font-weight: 400;
+    margin: 10px 0 20px;
+    font-family: sans-serif;
+}
+.container .form-parent form .btn{
+    all: unset;
+    margin: auto auto 10px;
+    font-family: sans-serif;
+    color: white;
+    border-radius: 6px;
+    font-size: 17px;
+    line-height: 50px;
+    padding: 0px 16px;
+    background-color: #42b72a;
+    cursor: pointer;
+}
+.container .form-parent p{
+    width: 400px;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+.container .form-parent p a{
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 900;
+    color: black;
+    width: fit-content;
+}
